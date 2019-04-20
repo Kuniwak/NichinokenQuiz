@@ -32,7 +32,7 @@ Cond3 ==
         \/ obj3 \in {WhiteBill, BlackBill}
     /\
         \/ obj1 \in {WhiteTower, BlackTower}
-        \/ obj1 \in {WhiteTower, BlackTower}
+        \/ obj2 \in {WhiteTower, BlackTower}
         \/ obj3 \in {WhiteTower, BlackTower}
 
 Init ==
@@ -68,5 +68,5 @@ Spec ==
 
 =============================================================================
 \* Modification History
-\* Last modified Sun Mar 31 12:26:38 JST 2019 by yuki.kokubun
+\* Last modified Sat Apr 20 17:40:35 JST 2019 by yuki.kokubun
 \* Created Sun Mar 31 12:00:19 JST 2019 by yuki.kokubun
