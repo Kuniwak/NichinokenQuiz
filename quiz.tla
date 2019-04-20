@@ -21,9 +21,9 @@ Cond1 ==
     /\ height3 = ShorterThan50 => obj3 \in {WhiteBill, BlackBill}
 
 Cond2 ==
-    /\ obj1 /= WhiteBill
-    /\ obj2 /= WhiteBill
-    /\ obj3 /= WhiteBill
+    /\ obj1 /= WhiteTower
+    /\ obj2 /= WhiteTower
+    /\ obj3 /= WhiteTower
     
 Cond3 ==
     /\
